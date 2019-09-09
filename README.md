@@ -1,4 +1,5 @@
 # docker-qbittorrent-filebot
 Based on linuxserver/qbittorrent with filebot added.
-
-Borrowed code from https://github.com/edifus
+* Added Java and Filebot.
+* Borrowed code from edifus/deluge-filebot.
+* [Instructions](https://hub.docker.com/r/linuxserver/qbittorrent)
