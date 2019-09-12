@@ -18,8 +18,5 @@ RUN \
  apt-get clean && \
  rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-# add linuxserver.io files
-COPY root/ /
-
 # init
 ENTRYPOINT ["/init"]
